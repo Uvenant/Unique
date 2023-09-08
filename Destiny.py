@@ -18,5 +18,5 @@ for pin in pins:
     GPIO.setup(pin,GPIO.OUT)
 
 while(True):
-    for pin in pins
+    for pin in pins:
         blink(pin,0.1)
