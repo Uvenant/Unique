@@ -10,8 +10,8 @@ def blink(pin, t=0.5):
     print ("LED on", pin)
     GPIO.output(pin,GPIO.HIGH)
     time.sleep(t)
-    print ("LED on"), pin
-    GPIO.output(pin,GPIO,LOW)
+    print ("LED off", pin)
+    GPIO.output(pin,GPIO.LOW)
     time.sleep(t)
 
 for pin in pins:
